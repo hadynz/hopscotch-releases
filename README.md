@@ -14,7 +14,8 @@ Hopscotch can be customized to fit your workflow. The application's behavior is 
 
 #### core
 
-- `core.isDebugMode`: Enable debug mode for more verbose logging and developer tools.
+- `core.isDebugMode`: Enable debug mode for more verbose logging.
+- `core.showDevTools`: Show developer tools in the UI. Requires isDebugMode to be true.
 
 #### hopping
 
@@ -27,6 +28,7 @@ Hopscotch can be customized to fit your workflow. The application's behavior is 
 
 #### harpoon
 
+- `harpoon.enabled`: Enable or disable the harpoon feature. (default: `true`)
 - `harpoon.commands.addWindow`: Shortcut to add the current focused window to the harpoon list. (default: `"ALT+M"`)
 - `harpoon.commands.toggleQuickMenu`: Shortcut to show/hide the harpoon quick menu. (default: `"ALT+N"`)
 - `harpoon.commands.navigateWindow1`: Shortcut to navigate to the 1st window in the harpoon list. (default: `"ALT+1"`)
