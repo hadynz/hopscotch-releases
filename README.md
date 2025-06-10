@@ -47,6 +47,8 @@ Hopscotch can be customized to fit your workflow. The application's behavior is 
 - `switching.commands.switchUp`: Shortcut to switch focus to the window above. (default: `"ALT+K"`)
 - `switching.commands.switchDown`: Shortcut to switch focus to the window below. (default: `"ALT+J"`)
 
+#### onboarding
+
 ## Installation
 
 _Installation instructions will be added here._
