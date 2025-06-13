@@ -53,7 +53,7 @@ This app is for you. Your feedback—good, bad, or brutally honest—is the most
 
 The best way you can help is to let me watch you use the app for the first time on a brief screen-share call. Your fresh perspective is exactly what I'm looking for!
 
-👉 **[If you have 20 minutes, please book a convenient time on my calendar]([YOUR_CALENDLY_LINK])**
+👉 **[If you have 20 minutes, please book a convenient time on my calendar][3]**
 
 If you're short on time or not up for a call, I would still be incredibly grateful for any thoughts you're willing to share. You can:
 
@@ -126,3 +126,4 @@ Made with ❤️ in New Zealand
 
 [1]: https://github.com/hadynz/hopscotch/issues
 [2]: https://github.com/hadynz/hopscotch/releases
+[3]: https://calendly.com/hadynz/hopscotch-interview
