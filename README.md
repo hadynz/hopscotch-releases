@@ -2,7 +2,7 @@
 
 **Vim-style window navigation for macOS. Stop using your mouse, start flying through your windows.**
 
-![Hopscotch Demo GIF](https://gist.github.com/user-attachments/assets/db93e6d7-5941-4ea9-9701-63b457959573)
+![Hopscotch Demo GIF](./assets/hopscotch-hopping.gif)
 
 ---
 
@@ -18,13 +18,13 @@ This is an early-stage project. My goal is to build a tool that becomes an indis
 
 Activate Hop with a hotkey to overlay letters on all visible windows. Type the corresponding letter to focus that window instantly. It's the fastest way to switch contexts, especially across multiple monitors.
 
-![Hop Feature GIF](https://gist.github.com/user-attachments/assets/db93e6d7-5941-4ea9-9701-63b457959573)
+![Hop Feature GIF](./assets/hopscotch-hopping.gif)
 
 ### Navigate: Spatial window movement
 
 Use Vim-style `hjkl` keys to move focus to the nearest window in any cardinal direction (left, down, up, or right). It's like having your windows in a spatial grid you can navigate effortlessly.
 
-![Navigate Feature GIF](https://gist.github.com/user-attachments/assets/418e16a6-dcaa-488e-afcb-444f7b39f8bd)
+![Navigate Feature GIF](./assets/hopscotch-switching.gif)
 
 ### Harpoon: Never lose an important window
 
@@ -32,7 +32,7 @@ Mark your most-used windows (like your IDE or terminal) with a simple command. A
 
 This feature is heavily inspired by the amazing [harpoon plugin](https://github.com/ThePrimeagen/harpoon) for Neovim, created by ThePrimeagen, and aims to bring that same power to macOS windows.
 
-![Harpoon Feature GIF](https://gist.github.com/user-attachments/assets/e87cc30c-cf18-48d4-aef7-a837a6d735ed)
+![Harpoon Feature GIF](./assets/hopscotch-harpoon.gif)
 
 ---
 
