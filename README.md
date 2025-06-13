@@ -66,6 +66,14 @@ If you're short on time or not up for a call, I would still be incredibly gratef
 
 Hopscotch can be customized to fit your workflow. The application's behavior is controlled through a settings file.
 
+Hopscotch is configured via a `hopscotch.json` file. The application searches for this file in the following locations, in order of precedence:
+
+1.  `~/.hopscotch.json`
+2.  `~/.config/hopscotch/hopscotch.json`
+3.  `~/Library/Application Support/Hopscotch/hopscotch.json`
+
+The first file found will be used. If no configuration file exists in any of these locations, Hopscotch will create a new one for you at the default path: `~/.hopscotch.json`.
+
 Below is an overview of the available options with their default values:
 
 ```js
@@ -118,6 +126,40 @@ My focus is currently on stability and refining the core features based on user 
 - Windows and Linux versions.
 
 Have a different idea? Let me know!
+
+---
+
+## 🧩 Complementary Tools
+
+Hopscotch excels at window navigation. To further reduce mouse usage, consider these powerful companions:
+
+- **[Homerow](https://www.homerow.app/)**: Brings Vimium-style controls to the entire OS, allowing you to click any UI element with your keyboard.
+- **[LeaderKey](https://github.com/mikker/LeaderKey.app)**: A launcher that uses a Vim-like leader key to give you quick, memorable shortcuts for apps and commands.
+- **[Mouseless](https://mouseless.click/)**: Another excellent app for keyboard-centric users.
+
+---
+
+## 🔗 URL Scheme
+
+Hopscotch supports URL schemes to allow control from other apps and scripts. You can use these to create your own workflows in tools like Raycast, Alfred, or the LeaderKey app.
+
+The basic format is `hopscotch://<feature>/<command>`. Here are the supported commands:
+
+* `hopscotch://harpoon/addWindow` — Shortcut to add the current focused window to the harpoon list.
+* `hopscotch://harpoon/toggleQuickMenu` — Shortcut to show/hide the harpoon quick menu.
+* `hopscotch://harpoon/navigateWindow1` — Shortcut to navigate to the 1st window in the harpoon list.
+* `hopscotch://harpoon/navigateWindow2` — Shortcut to navigate to the 2nd window in the harpoon list.
+* `hopscotch://harpoon/navigateWindow3` — Shortcut to navigate to the 3rd window in the harpoon list.
+* `hopscotch://harpoon/navigateWindow4` — Shortcut to navigate to the 4th window in the harpoon list.
+* `hopscotch://harpoon/navigateWindow5` — Shortcut to navigate to the 5th window in the harpoon list.
+* `hopscotch://harpoon/navigateWindow6` — Shortcut to navigate to the 6th window in the harpoon list.
+* `hopscotch://harpoon/navigateWindow7` — Shortcut to navigate to the 7th window in the harpoon list.
+* `hopscotch://hopping/startHopping` — Shortcut to activate the window hopping overlay.
+* `hopscotch://settings/toggleSettings` — Shortcut to open the settings window.
+* `hopscotch://switching/switchLeft` — Shortcut to switch focus to the window to the left.
+* `hopscotch://switching/switchRight` — Shortcut to switch focus to the window to the right.
+* `hopscotch://switching/switchUp` — Shortcut to switch focus to the window above.
+* `hopscotch://switching/switchDown` — Shortcut to switch focus to the window below.
 
 ---
 
