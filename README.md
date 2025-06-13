@@ -126,7 +126,3 @@ Made with ❤️ in New Zealand
 
 [1]: https://github.com/hadynz/hopscotch/issues
 [2]: https://github.com/hadynz/hopscotch/releases
-
-```
-
-```
