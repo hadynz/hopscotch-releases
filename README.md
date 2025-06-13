@@ -69,6 +69,7 @@ Hopscotch can be customized to fit your workflow. The application's behavior is 
 
 Below is an overview of the available options with their default values:
 
+```js
 {
   // core
   "core.isDebugMode": false, // Enable debug mode for more verbose logging.
@@ -106,16 +107,16 @@ Below is an overview of the available options with their default values:
   "switching.commands.switchUp": "ALT+K", // Shortcut to switch focus to the window above.
   "switching.commands.switchDown": "ALT+J", // Shortcut to switch focus to the window below.
 }
-
 ```
 
 ## 🗺️ Roadmap
 
 My focus is currently on stability and refining the core features based on user feedback. Some ideas I'm exploring for the future include:
--   Window resizing with the keyboard.
--   Screenshotting with the keyboard.
--   Recalling (moving) any window to your current MacOS space and to move back.
--   Windows and Linux versions.
+
+- Window resizing with the keyboard.
+- Screenshotting with the keyboard.
+- Recalling (moving) any window to your current MacOS space and to move back.
+- Windows and Linux versions.
 
 Have a different idea? Let me know!
 
@@ -125,4 +126,7 @@ Made with ❤️ in New Zealand
 
 [1]: https://github.com/hadynz/hopscotch/issues
 [2]: https://github.com/hadynz/hopscotch/releases
+
+```
+
 ```
