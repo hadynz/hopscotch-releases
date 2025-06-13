@@ -2,8 +2,7 @@
 
 **Vim-style window navigation for macOS. Stop using your mouse, start flying through your windows.**
 
-![Hopscotch Demo GIF](https://place-hold.it/800x450?text=Your+Awesome+Hopping+GIF+Here)
-_Replace this with a GIF of the 'Hopping' feature in action._
+![Hopscotch Demo GIF](https://github.com/user-attachments/assets/8a2f0a64-4296-46cd-90ab-cb95b50f60f2)
 
 ---
 
@@ -19,13 +18,13 @@ This is an early-stage project. My goal is to build a tool that becomes an indis
 
 Activate Hop with a hotkey to overlay letters on all visible windows. Type the corresponding letter to focus that window instantly. It's the fastest way to switch contexts, especially across multiple monitors.
 
-![Hop Feature GIF](https://place-hold.it/600x300?text=Hop+Feature+GIF)
+![Hop Feature GIF](https://github.com/user-attachments/assets/8a2f0a64-4296-46cd-90ab-cb95b50f60f2)
 
 ### Navigate: Spatial window movement
 
 Use Vim-style `hjkl` keys to move focus to the nearest window in any cardinal direction (left, down, up, or right). It's like having your windows in a spatial grid you can navigate effortlessly.
 
-![Navigate Feature GIF](https://place-hold.it/600x300?text=Navigate+Feature+GIF)
+![Navigate Feature GIF](https://github.com/user-attachments/assets/6cc8a40d-2d76-4f71-9ee6-ad30568caea5)
 
 ### Harpoon: Never lose an important window
 
@@ -33,7 +32,7 @@ Mark your most-used windows (like your IDE or terminal) with a simple command. A
 
 This feature is heavily inspired by the amazing [harpoon plugin](https://github.com/ThePrimeagen/harpoon) for Neovim, created by ThePrimeagen, and aims to bring that same power to macOS windows.
 
-![Harpoon Feature GIF](https://place-hold.it/600x300?text=Harpoon+Feature+GIF)
+![Harpoon Feature GIF](https://github.com/user-attachments/assets/be79af21-876e-4f80-ae76-de81118c1598)
 
 ---
 
@@ -53,7 +52,7 @@ This app is for you. Your feedback—good, bad, or brutally honest—is the most
 
 The best way you can help is to let me watch you use the app for the first time on a brief screen-share call. Your fresh perspective is exactly what I'm looking for!
 
-👉 **[If you have 20 minutes, please book a convenient time on my calendar][3]**
+👉 **[If you have 20 minutes, please book a convenient time on my calendar]**
 
 If you're short on time or not up for a call, I would still be incredibly grateful for any thoughts you're willing to share. You can:
 
