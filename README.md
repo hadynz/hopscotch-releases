@@ -78,41 +78,32 @@ Below is an overview of the available options with their default values:
 
 ```js
 {
-  // core
-  "core.isDebugMode": false, // Enable debug mode for more verbose logging.
-  "core.showDevTools": false, // Show developer tools in the UI. Requires isDebugMode to be true.
+  "core.isDebugMode": false
+  "core.showDevTools": false
 
-  // harpoon
-  "harpoon.enabled": true, // Enable or disable the harpoon feature.
-  "harpoon.commands.addWindow": "ALT+M", // Shortcut to add the current focused window to the harpoon list.
-  "harpoon.commands.toggleQuickMenu": "ALT+N", // Shortcut to show/hide the harpoon quick menu.
-  "harpoon.commands.navigateWindow1": "ALT+1", // Shortcut to navigate to the 1st window in the harpoon list.
-  "harpoon.commands.navigateWindow2": "ALT+2", // Shortcut to navigate to the 2nd window in the harpoon list.
-  "harpoon.commands.navigateWindow3": "ALT+3", // Shortcut to navigate to the 3rd window in the harpoon list.
-  "harpoon.commands.navigateWindow4": "ALT+4", // Shortcut to navigate to the 4th window in the harpoon list.
-  "harpoon.commands.navigateWindow5": "ALT+5", // Shortcut to navigate to the 5th window in the harpoon list.
-  "harpoon.commands.navigateWindow6": "ALT+6", // Shortcut to navigate to the 6th window in the harpoon list.
-  "harpoon.commands.navigateWindow7": "ALT+7", // Shortcut to navigate to the 7th window in the harpoon list.
+  "harpoon.commands.markWindow": "CMD+SHIFT+A"
+  "harpoon.commands.toggleQuickMenu": "CMD+SHIFT+M"
+  "harpoon.commands.navigateToWindow1": "OPTION+1"
+  "harpoon.commands.navigateToWindow2": "OPTION+2"
+  "harpoon.commands.navigateToWindow3": "OPTION+3"
+  "harpoon.commands.navigateToWindow4": "OPTION+4"
+  "harpoon.commands.navigateToWindow5": "OPTION+5"
+  "harpoon.commands.navigateToWindow6": "OPTION+6"
+  "harpoon.commands.navigateToWindow7": "OPTION+7"
 
-  // hopping
-  "hopping.enabled": true, // Enable or disable the window hopping feature.
-  "hopping.appearance.targetStyle": "centered", // Style of the hop target overlay. Currently only 'centered' is available.
-  "hopping.appearance.targetBorder": "dashed", // Border style for the hop target overlay.
-  "hopping.appearance.fontSize": 60, // Font size for the hop target keys.
-  "hopping.behavior.keys": "asdfghjklqwertyuiopzxcvbnm", // The characters to use for the hop target keys.
-  "hopping.commands.startHopping": "ALT+B", // Shortcut to activate the window hopping overlay.
+  "hopping.appearance.targetStyle": "centered"
+  "hopping.appearance.targetBorder": "dashed"
+  "hopping.appearance.fontSize": 60
+  "hopping.behavior.keys": "asdfghjklqwertyuiopzxcvbnm"
+  "hopping.commands.startHopping": "CMD+SHIFT+H"
 
-  // onboarding
 
-  // settings
-  "settings.commands.toggleSettings": "CmdOrCtrl+,", // Shortcut to open the settings window.
+  "settings.commands.openSettings": 
 
-  // switching
-  "switching.enabled": true, // Enable or disable spatial window switching.
-  "switching.commands.switchLeft": "ALT+H", // Shortcut to switch focus to the window to the left.
-  "switching.commands.switchRight": "ALT+L", // Shortcut to switch focus to the window to the right.
-  "switching.commands.switchUp": "ALT+K", // Shortcut to switch focus to the window above.
-  "switching.commands.switchDown": "ALT+J", // Shortcut to switch focus to the window below.
+  "switching.commands.switchLeft": "CMD+SHIFT+H"
+  "switching.commands.switchRight": "CMD+SHIFT+L"
+  "switching.commands.switchUp": "CMD+SHIFT+K"
+  "switching.commands.switchDown": "CMD+SHIFT+J"
 }
 ```
 
@@ -145,21 +136,21 @@ Hopscotch supports URL schemes to allow control from other apps and scripts. You
 
 The basic format is `hopscotch://<feature>/<command>`. Here are the supported commands:
 
-* `hopscotch://harpoon/addWindow` — Shortcut to add the current focused window to the harpoon list.
-* `hopscotch://harpoon/toggleQuickMenu` — Shortcut to show/hide the harpoon quick menu.
-* `hopscotch://harpoon/navigateWindow1` — Shortcut to navigate to the 1st window in the harpoon list.
-* `hopscotch://harpoon/navigateWindow2` — Shortcut to navigate to the 2nd window in the harpoon list.
-* `hopscotch://harpoon/navigateWindow3` — Shortcut to navigate to the 3rd window in the harpoon list.
-* `hopscotch://harpoon/navigateWindow4` — Shortcut to navigate to the 4th window in the harpoon list.
-* `hopscotch://harpoon/navigateWindow5` — Shortcut to navigate to the 5th window in the harpoon list.
-* `hopscotch://harpoon/navigateWindow6` — Shortcut to navigate to the 6th window in the harpoon list.
-* `hopscotch://harpoon/navigateWindow7` — Shortcut to navigate to the 7th window in the harpoon list.
-* `hopscotch://hopping/startHopping` — Shortcut to activate the window hopping overlay.
-* `hopscotch://settings/toggleSettings` — Shortcut to open the settings window.
-* `hopscotch://switching/switchLeft` — Shortcut to switch focus to the window to the left.
-* `hopscotch://switching/switchRight` — Shortcut to switch focus to the window to the right.
-* `hopscotch://switching/switchUp` — Shortcut to switch focus to the window above.
-* `hopscotch://switching/switchDown` — Shortcut to switch focus to the window below.
+* `hopscotch://harpoon/markWindow`
+* `hopscotch://harpoon/toggleQuickMenu`
+* `hopscotch://harpoon/navigateToWindow1`
+* `hopscotch://harpoon/navigateToWindow2`
+* `hopscotch://harpoon/navigateToWindow3`
+* `hopscotch://harpoon/navigateToWindow4`
+* `hopscotch://harpoon/navigateToWindow5`
+* `hopscotch://harpoon/navigateToWindow6`
+* `hopscotch://harpoon/navigateToWindow7`
+* `hopscotch://hopping/startHopping`
+* `hopscotch://settings/openSettings`
+* `hopscotch://switching/switchLeft`
+* `hopscotch://switching/switchRight`
+* `hopscotch://switching/switchUp`
+* `hopscotch://switching/switchDown`
 
 ---
 
