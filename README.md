@@ -74,12 +74,14 @@ Hopscotch is configured via a `hopscotch.json` file. The application searches fo
 
 The first file found will be used. If no configuration file exists in any of these locations, Hopscotch will create a new one for you at the default path: `~/.hopscotch.json`.
 
-Below is an overview of the available options with their default values:
+Below is an overview of the available options with their default values. Note: All keyboard
+shortcut commands are defined using [Electron's accelerator][4] format.
 
 ```js
 {
   "core.isDebugMode": false
   "core.showDevTools": false
+  "core.enableWindowHighlight": true
 
   "harpoon.commands.markWindow": "CMD+SHIFT+A"
   "harpoon.commands.toggleQuickMenu": "CMD+SHIFT+M"
@@ -159,3 +161,4 @@ Made with ❤️ in New Zealand
 [1]: https://github.com/hadynz/hopscotch/issues
 [2]: https://github.com/hadynz/hopscotch/releases
 [3]: https://calendly.com/hadynz/hopscotch-interview
+[4]: https://www.electronjs.org/docs/latest/api/accelerator
