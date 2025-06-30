@@ -79,12 +79,14 @@ shortcut commands are defined using [Electron's accelerator][4] format.
 
 ```js
 {
+  "spotlight.commands.showSpotlight": "CMD+SHIFT+H"
+
+  "core.showMenuBarIcon": true
   "core.isDebugMode": false
   "core.showDevTools": false
   "core.enableWindowHighlight": true
 
   "harpoon.commands.markWindow": "CMD+SHIFT+A"
-  "harpoon.commands.toggleQuickMenu": "CMD+SHIFT+M"
   "harpoon.commands.navigateToWindow1": "OPTION+1"
   "harpoon.commands.navigateToWindow2": "OPTION+2"
   "harpoon.commands.navigateToWindow3": "OPTION+3"
@@ -97,7 +99,7 @@ shortcut commands are defined using [Electron's accelerator][4] format.
   "hopping.appearance.targetBorder": "dashed"
   "hopping.appearance.fontSize": 60
   "hopping.behavior.keys": "asdfghjklqwertyuiopzxcvbnm"
-  "hopping.commands.startHopping": "CMD+SHIFT+H"
+  "hopping.commands.startHopping": "CMD+SHIFT+J"
 
 
   "settings.commands.openSettings": 
@@ -138,8 +140,8 @@ Hopscotch supports URL schemes to allow control from other apps and scripts. You
 
 The basic format is `hopscotch://<feature>/<command>`. Here are the supported commands:
 
+* `hopscotch://spotlight/showSpotlight`
 * `hopscotch://harpoon/markWindow`
-* `hopscotch://harpoon/toggleQuickMenu`
 * `hopscotch://harpoon/navigateToWindow1`
 * `hopscotch://harpoon/navigateToWindow2`
 * `hopscotch://harpoon/navigateToWindow3`
