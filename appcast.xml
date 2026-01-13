@@ -5,14 +5,14 @@
     <language>en</language>
     <item>
       <title>Version 1.0.0</title>
-      <pubDate>Tue, 13 Jan 2026 10:38:12 +0000</pubDate>
+      <pubDate>Tue, 13 Jan 2026 11:01:24 +0000</pubDate>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <enclosure
         url="https://github.com/hadynz/hopscotch-releases/releases/download/v1.0.0/Hopscotch-1.0.0.zip"
         sparkle:version="1.0.0"
         sparkle:shortVersionString="1.0.0"
         sparkle:edSignature=""
-        length="1786776"
+        length="1786796"
         type="application/octet-stream"/>
     </item>
   </channel>
