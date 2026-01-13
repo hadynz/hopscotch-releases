@@ -1,0 +1,19 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+  <channel>
+    <title>Hopscotch</title>
+    <language>en</language>
+    <item>
+      <title>Version refs/heads/main</title>
+      <pubDate>Tue, 13 Jan 2026 03:24:56 +0000</pubDate>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <enclosure
+        url="https://github.com/hadynz/hopscotch-releases/releases/download/vrefs/heads/main/Hopscotch-refs/heads/main.zip"
+        sparkle:version="refs/heads/main"
+        sparkle:shortVersionString="refs/heads/main"
+        sparkle:edSignature="rSMLfoHnwz/tCy9tF8+NGhQt72rvZYBIyoJ16YJzsudJ1wmDPfxDL3kv2J9hkPNK38xAZTL/fIBm6/9a5ZBUCg=="
+        length="1786827"
+        type="application/octet-stream"/>
+    </item>
+  </channel>
+</rss>
