@@ -4,15 +4,15 @@
     <title>Hopscotch</title>
     <language>en</language>
     <item>
-      <title>Version 1.5.0</title>
-      <pubDate>Fri, 16 Jan 2026 11:19:38 +0000</pubDate>
+      <title>Version 1.6.0</title>
+      <pubDate>Sat, 17 Jan 2026 06:35:48 +0000</pubDate>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://github.com/hadynz/hopscotch-releases/releases/download/v1.5.0/Hopscotch-1.5.0.zip"
-        sparkle:version="1.5.0"
-        sparkle:shortVersionString="1.5.0"
-        sparkle:edSignature="p2vRgWdFp5KXqK937cvzCtrCKE5pZRQf930c8wCG8gYCpkjt/NscAViMj8oI1K9kJGEHDcRgVva/4FbIExf1Cg=="
-        length="2653238"
+        url="https://github.com/hadynz/hopscotch-releases/releases/download/v1.6.0/Hopscotch-1.6.0.zip"
+        sparkle:version="1.6.0"
+        sparkle:shortVersionString="1.6.0"
+        sparkle:edSignature="xz1WVKUMs9YKQMKHgqLm7A0y9JTvdDqpMUZ8BUZpaU27yjYkZk6d1h+treiyCJVs9cpjd83tLENg3JGZ7OtUAw=="
+        length="2663155"
         type="application/octet-stream"/>
     </item>
   </channel>
